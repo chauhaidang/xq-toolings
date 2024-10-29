@@ -5,7 +5,7 @@ meta {
 }
 
 put {
-  url: {{host}}/api/loans/update
+  url: {{host}}/api/cards/update
   body: json
   auth: none
 }
@@ -18,10 +18,10 @@ headers {
 body:json {
   {
     "mobileNumber": "4391291022",
-    "loanNumber": "100119054966",
-    "loanType": "HOME_LOAN",
-    "totalLoan": 10000,
-    "amountPaid": 0,
-    "outstandingAmount": 10000
+    "cardNumber": "100055148860",
+    "cardType": "DEBIT",
+    "totalLimit": 10000,
+    "amountUsed": 5000,
+    "availableAmount": 5000
   }
 }
